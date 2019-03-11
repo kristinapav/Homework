@@ -57,18 +57,28 @@ namespace HomeworkPart3
 
             //Console.ReadLine();
 
-            //Task 5.
+         
+            //Task 4. && //Task 5.
 
-            //int i, num, sum = 0;
+            //int n, even = 0, odd = 0;
 
-            //Console.Write("Enter any number : " );
-            //num = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter a number : ");
+            //n = Convert.ToInt32(Console.ReadLine());
 
-            //for (i = 1; i <= num; i += 2)
+            //for (int i = 0; i < n; i++)
             //{
-            //    sum += i;
+            //    if (i % 2 == 0)
+            //    {
+            //        Console.Write(" {0} ", i);
+            //        even = even + i;
+            //    } else
+            //    {
+            //        Console.WriteLine(" \t {0}", i);
+            //        odd = odd + i;
+            //    }
             //}
-            //Console.WriteLine("Sum of all odd numbers between 1 and " + num + " = " + sum);
+            //Console.WriteLine("\n sum of all even numbers is : {0}  \n sum of all odd numbers is : {1}", even, odd);
+          
 
 
             //Task 6.
@@ -127,6 +137,25 @@ namespace HomeworkPart3
             //Task 11
 
             //Task 12
+            
+             //for (int i = 1; i < 101; i++)
+            //{
+            //    if (i % 3 == 0 & i % 5 == 0)
+            //    {
+            //        Console.Write("FIZZBUZZ" + " , ");
+            //    {
+            //    } else if (i % 3 == 0)
+            //    {
+            //        Console.Write("FIZZ" + " ,");
+            //    } else if (i % 5 == 0)
+            //        Console.Write("BUZZ" + " , ");
+            //    } else
+            //    {
+            //        i = i + 0;
+            //    }
+            //    Console.Write(i + " , ");
+                    
+            //}
 
 
         }
